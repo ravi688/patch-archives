@@ -1,0 +1,13 @@
+diff --git a/cmake/reproc.cmake b/cmake/reproc.cmake
+index d0efafc..fce4377 100644
+--- a/cmake/reproc.cmake
++++ b/cmake/reproc.cmake
+@@ -11,6 +11,8 @@ option(REPROC_EXAMPLES "Build examples" ${REPROC_DEVELOP})
+ option(REPROC_WARNINGS "Enable compiler warnings" ${REPROC_DEVELOP})
+ option(REPROC_TIDY "Run clang-tidy when building" ${REPROC_DEVELOP})
+ 
++set(CMAKE_POSITION_INDEPENDENT_CODE ON)
++
+ option(
+   REPROC_SANITIZERS
+   "Build with sanitizers on configurations that support it"
