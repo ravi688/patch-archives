@@ -1,2 +1,2 @@
 # patch-archives
-Patch Archives associated for my projects
+Patch Archives associated to my projects
