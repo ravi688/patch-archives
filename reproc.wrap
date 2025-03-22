@@ -1,0 +1,12 @@
+[wrap-git]
+url = https://github.com/DaanDeMeyer/reproc.git
+revision = HEAD
+depth = 1
+method = cmake
+patch_url=https://raw.githubusercontent.com/ravi688/patch-archives/refs/heads/main/reproc-enable-pic.tar
+patch_filename=reproc-enable-pic.tar
+patch_hash=5cc4c081279aa75e863539952fd7fb2932097049ced16bef9ddce2d77ed5b8f1
+
+[provide]
+reproc = reproc_dep
+
